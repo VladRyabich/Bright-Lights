@@ -3,76 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Name Web-Side -->
     <title>Bright-Lights</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Header section -->
-    <header>
+    <header class="header">
         <!-- Navigation -->
-        <nav>
-            <a href="">
+        <nav class="header-nav">
+            <a href=""
+            class="logo">
                 <img src="" alt="">
                 <img src="" alt="">
             </a>
             <!-- Nav -->
-            <ul>
-                <li>
-                    <a href=""></a>
+            <ul class="header-list">
+                <li class="header-item">
+                    <a href="">About</a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="header-item">
+                    <a href="">News</a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="header-item">
+                    <a href="">Music</a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="header-item">
+                    <a href="">Media</a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="header-item">
+                    <a href="">Tours</a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="header-item">
+                    <a href="">Contacts</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!-- Main section -->
-    <main>
+    <main class="main">
+
         <!-- Hero block -->
-        <section>
-            <h1>New Single</h1>
-        <p>War For Love</p>
-        <audio src=""></audio>
+        <section class="section hero">
+
+            <h1 class="hero-title">New Single</h1>
+
+            <p class="hero-text">War For Love</p>
+
+            <audio src=""
+                    class="hero-audio"></audio>
         </section>
+
         <!-- News block -->
-        <section>
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
-                        <p></p>
+        <section class="section news">
+            <h2 hidden class="news-title">News</h2>
+
+            <ul class="news-list">
+                <li class="news-item">
+                    <a href="" 
+                        class="news-link">
+                        <img src="" 
+                            alt=""
+                            class="news-img">
+                        <p class="news-text"></p>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
-                        <p></p>
+                <li class="news-item">
+                    <a href="" 
+                        class="news-link">
+                        <img src="" 
+                            alt=""
+                            class="news-img">
+                        <p class="news-text"></p>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
-                        <p></p>
+                <li class="news-item">
+                    <a href="" 
+                        class="news-link">
+                        <img src="" 
+                            alt=""
+                            class="news-img">
+                        <p class="news-text"></p>
                     </a>
                 </li>
             </ul>
         </section>
-        <!-- About us -->
-        <section>
+
+        <!-- Information block -->
+        <section class="section info">
             <h2>Bright Lights</h2>
+            
             <p>Bright Lights is a multi-Grammy nominated singer, songwriter, 
                 DJ and record producer. She has written for numerous 
                 pop stars including Britney Spears, Justin Bieber, Usher and Beyoncé. 
@@ -105,144 +128,186 @@
                 </li>
             </ul>
         </section>
-        <!-- Text block -->
-        <section>
-            <h2>My comentar</h2>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>“In an age where mainstream music is designed to be as
-                        easily consumed as possible, listening to Bright Lights is
-                        refreshing, to say the least. Her sound is perfect for radio
-                        but complex enough to separate her from other pop newcomers.”
-                    </p>
-                </li>
-                <li>
-                    <a href="PopULove.net">PopULove.net</a>
-                </li>
-            </ul>
+
+        <!-- Sidebar block -->
+        <section class="section sidebar">
+            <h2 hidden class="sidebar-title">My comentar</h2>
+
+            <p class="sidebar-text">“In an age where mainstream music is designed to be as
+                easily consumed as possible, listening to Bright Lights is
+                refreshing, to say the least. Her sound is perfect for radio
+                but complex enough to separate her from other pop newcomers.”
+            </p>
+
+            <a href=""
+                class="sidebar-link">PopULove.net</a>
+
+            <img src="" 
+                alt=""
+                class="sidebar-img">
         </section>
+
         <!-- Tracks block -->
-        <section>
-            <h2>Last tracks</h2>
-            <img src="" alt="">
-            <audio src=""></audio>
-            <h3>Follow me:</h3>
-            <ul>
-                <li>
-                    <a href="">Spotify</a>
+        <section class="section tracks">
+            <h2 class="tracks-title">Last tracks</h2>
+
+            <img src="" 
+                alt=""
+                class="tracks-img">
+
+            <audio src="" class="tracks-audio"></audio>
+
+            <p class="tracks-text">Follow me:</p>
+
+            <ul class="tracks-list">
+                <li class="tracks-item">
+                    <a href="" class="tracks-link">Spotify</a>
                 </li>
-                <li>
-                    <a href="">iTunes</a>
+                <li class="tracks-item">
+                    <a href="" class="tracks-link">iTunes</a>
                 </li>
             </ul>
         </section>
+
         <!-- Gallery block -->
-        <section>
-            <h2>Gallery</h2>
-            <ul>
-                <li>
-                    <img src="" alt="">
+        <section class="section gallery">
+            <h2 hidden class="gallery-title">Gallery</h2>
+
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="" 
+                    alt=""
+                    class="gallery-img">
                 </li>
-                <li>
-                    <img src="" alt="">
+                <li class="gallery-item">
+                    <img src="" 
+                    alt=""
+                    class="gallery-img">
                 </li>
-                <li>
-                    <img src="" alt="">
+                <li class="gallery-item">
+                    <img src="" 
+                    alt=""
+                    class="gallery-img">
                 </li>
-                <li>
-                    <img src="" alt="">
+                <li class="gallery-item">
+                    <img src="" 
+                    alt=""
+                    class="gallery-img">
+                    <p class="gallery-text">EDC Las Vegas Mainstage</p>
                 </li>
-                <li>
-                    <img src="" alt="">
+                <li class="gallery-item">
+                    <img src="" 
+                    alt=""
+                    class="gallery-img">
                 </li>
             </ul>
         </section>
+
         <!-- Events block -->
-        <section>
-            <h2>Events</h2>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <p></p>
-                    <h4></h4>
-                    <data></data>
-                    <p></p>
+        <section class="section events">
+            <h2 hidden class="events-title">Events</h2>
+
+            <ul class="events-list">
+                <li class="events-item">
+                    <img src="" 
+                        alt=""
+                        class="events-img">
+                    <p class="events-club">Chandler, AZ</p>
+                    <h3 class="events-subtitle">The Park at Wild Horse Pass</h3>
+                    <data class="events-data">Apr 02 2021</data>
+                    <button type="button" class="events-btn">tickets</button>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <p></p>
-                    <h4></h4>
-                    <data></data>
-                    <p></p>
+                <li class="events-item">
+                    <img src="" 
+                        alt=""
+                        class="events-img">
+                    <p class="events-club">Ibiza, IBZ</p>
+                    <h3 class="events-subtitle">Swag Ibiza Club</h3>
+                    <data class="events-data">Jul 08 2021</data>
+                    <button type="button" class="events-btn">tickets</button>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <p></p>
-                    <h4></h4>
-                    <data></data>
-                    <p></p>
+                <li class="events-item">
+                    <img src="" 
+                        alt=""
+                        class="events-img">
+                    <p class="events-club">Ibiza, IBZ</p>
+                    <h3 class="events-subtitle">El Swing Ibiza</h3>
+                    <data class="events-data">Jul 10 2021</data>
+                    <button type="button" class="events-btn">tickets</button>
                 </li>
             </ul>
         </section>
     </main>
     <!-- Footer section -->
-    <footer>
-        <section>
+    <footer class="footer">
             <!-- Logo -->
             <a href="">
                 <img src="" alt="">
                 <img src="" alt="">
             </a>
             <!-- Name and Mail -->
-            <ul>
-                <li>
-                    <h5></h5>
-                    <p></p>
+            <ul class="management-list">
+                <li class="management-item">
+                    <h4 class="menegment-title">Artist Management:</h4>
+                    <p class="menegment-text">Jake Henny</p>
                 </li>
-                <li>
-                    <h5></h5>
-                    <p></p>
+                <li class="management-item">
+                    <h4 class="menegment-title">Email:</h4>
+                    <p class="menegment-text">jake@brightlightsofficial.com</p>
                 </li>
             </ul>
             <!-- Social networks -->
-            <ul>
-                <li>
-                    <a href="">
-                    <img src="" alt="">
+            <ul class="socials-list">
+                <li class="socials-item">
+                    <a href=""
+                        class="socials-link">
+                    <img src="" 
+                        alt=""
+                        class="socials-icon">
                 </a>
                 </li>
-                <li>
-                    <a href="">
-                    <img src="" alt="">
+                <li class="socials-item">
+                    <a href=""
+                        class="socials-link">
+                    <img src="" 
+                        alt=""
+                        class="socials-icon">
                 </a>
                 </li>
-                <li>
-                    <a href="">
-                    <img src="" alt="">
+                <li class="socials-item">
+                    <a href=""
+                        class="socials-link">
+                    <img src="" 
+                        alt=""
+                        class="socials-icon">
                 </a>
                 </li>
-                <li>
-                    <a href="">
-                    <img src="" alt="">
+                <li class="socials-item">
+                    <a href=""
+                        class="socials-link">
+                    <img src="" 
+                        alt=""
+                        class="socials-icon">
                 </a>
                 </li>
-                <li>
-                    <a href="">
-                    <img src="" alt="">
+                <li class="socials-item">
+                    <a href=""
+                        class="socials-link">
+                    <img src="" 
+                        alt=""
+                        class="socials-icon">
                 </a>
                 </li>
-                <li>
-                    <a href="">
-                    <img src="" alt="">
+                <li class="socials-item">
+                    <a href=""
+                        class="socials-link">
+                    <img src="" 
+                        alt=""
+                        class="socials-icon">
                 </a>
                 </li>
             </ul>
-            <p>&#169;2020 DJ bright lights.</p>
-        </section>
+            <p class="copy">&#169;2020 DJ bright lights.</p>
     </footer>
 </body>
 </html>
