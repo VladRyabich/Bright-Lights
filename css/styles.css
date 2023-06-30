@@ -1,0 +1,44 @@
+/* Root */
+:root {
+    /* Text color */
+    --main-color-text: #fff;
+    /* Background color */
+    --main-bg-color: #1c1b21;
+}
+
+/* Common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    color: var(--main-color-text);
+    background-color: var(--main-bg-color);
+}
+.link {
+    text-decoration: none;
+    color: var(--main-color-text);
+}
+.list {
+    list-style-type: none;
+}
+
+/* Navigation */
+.logo {
+}
+
+/* Nav */
+.header-list {
+}
+.header-item {
+}
+
+
+
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+.tracks-img {
+    border-radius: 434.444px;
+}
