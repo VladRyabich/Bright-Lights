@@ -42,3 +42,26 @@ body {
 .tracks-img {
     border-radius: 434.444px;
 }
+
+/* Modal window */
+.backdrop {
+    position: fixed;
+    top: o;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.modal {
+    width: 517px;
+    height: 794px;
+
+    background-color: #fafafa;
+
+    border-radius: 15px;
+}
+.modal-icon {
+
+}
