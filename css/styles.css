@@ -4,6 +4,9 @@
     --main-color-text: #fff;
     /* Background color */
     --main-bg-color: #1c1b21;
+    /* Background border color */
+    --border-cl-main: #7A66CC;
+    --border-cl-second: #53497B;
 }
 
 /* Common styles */
@@ -13,6 +16,13 @@ body {
     line-height: normal;
     color: var(--main-color-text);
     background-color: var(--main-bg-color);
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 auto;
+}
+ul {
+    margin: 0 auto;
+    padding-left: 0;
 }
 .section {
 }
@@ -32,6 +42,11 @@ body {
 .item {
 }
 .img {
+    display: block;
+    max-width: 100%;
+
+    border: 0;
+    border-radius: 35px 0px 35px;
 }
 
 /* Header block */
@@ -53,10 +68,13 @@ body {
 
 .list {
     display: flex;
-    gap: 20px;
+    gap: 56px;
 }
 
-.header-list {}
+.header-list {
+    justify-content: center;
+    align-items: center;
+}
 
 .header-item {}
 
@@ -72,13 +90,43 @@ body {
 
 /* Hero block */
 
-.hero {}
+.hero {
+    width: 1920px;
+    height: 1000px;
+        
+    background-image: url(../images/hero/hero-img.jpg);
+}
 
-.container-hero {}
+.container-hero {
+    
+}
 
-.hero-title {}
+.hero-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    width: 100%;
 
-.hero-text {}
+    margin-bottom: 10px;
+    padding-top: 412px;
+    padding-left: 405px;
+}
+
+.hero-text {
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 100%;
+
+    margin-bottom: 50px;
+    padding-left: 405px;
+}
 
 .hero-audio {}
 
@@ -140,6 +188,11 @@ body {
 .tracks-title {}
 
 .tracks-img {
+    width: 430px;
+    height: 430px;
+
+    border: 18px solid var(--border-cl-main);
+    outline: 18px solid var(--border-cl-second);
     border-radius: 50%;
 }
 
