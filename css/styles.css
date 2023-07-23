@@ -14,6 +14,14 @@ body {
     color: var(--main-color-text);
     background-color: var(--main-bg-color);
 }
+.section {
+}
+.title {
+}
+.text {
+}
+.container {
+}
 .link {
     text-decoration: none;
     color: var(--main-color-text);
@@ -21,16 +29,38 @@ body {
 .list {
     list-style-type: none;
 }
+.item {
+}
+.img {
+}
 
-/* Navigation */
+/* Header block */
+.header {}
+
+.container {}
+
+.container-nav {}
+
+.nav {}
+
+.header-nav {}
+
 .logo {
+    display: flex;
 }
 
-/* Nav */
-.header-list {
+.logo-img {}
+
+.list {
+    display: flex;
+    gap: 20px;
 }
-.header-item {
-}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
 
 
 
@@ -39,9 +69,160 @@ body {
     grid-template-columns: repeat(12, 1fr);
     position: relative;
 }
+
+/* Hero block */
+
+.hero {}
+
+.container-hero {}
+
+.hero-title {}
+
+.hero-text {}
+
+.hero-audio {}
+
+/* News block */
+.section {}
+
+.news {}
+
+
+.container-news {}
+
+.news-title {}
+
+.news-list {}
+
+.news-item {}
+
+.news-link {}
+
+.news-img {}
+
+.news-text {}
+
+/* Information block */
+
+.info {}
+
+.container-info {}
+
+.info-title {}
+
+.info-text {}
+
+.info-list {}
+
+.info-item {}
+
+.info-img {}
+
+/* Sidebar block */
+
+.sidebar {}
+
+.container-sidebar {}
+
+.sidebar-title {}
+
+.sidebar-text {}
+
+.sidebar-link {}
+
+.sidebar-img {}
+
+/* Tracks block */
+.tracks {}
+
+.container-tracks {}
+
+.tracks-title {}
+
 .tracks-img {
-    border-radius: 434.444px;
+    border-radius: 50%;
 }
+
+.tracks-audio {}
+
+.tracks-text {}
+
+.tracks-list {}
+
+.tracks-item {}
+
+.tracks-link {}
+
+/* Gallery block */
+
+.gallery {}
+
+.container-gallery {}
+
+.gallery-title {}
+
+.gallery-list {}
+
+.gallery-item {}
+
+.gallery-img {
+    border-radius: 35px 0px 35px;
+}
+
+.gallery-text {}
+
+/* Events block */
+
+.events {}
+
+.container {}
+
+.container-events {}
+
+.events-title {}
+
+.events-list {}
+
+.events-item {}
+
+.events-img {
+    border-radius: 35px 0px 35px;
+}
+
+.events-club {}
+
+.events-subtitle {}
+
+.events-data {}
+
+.events-btn {}
+
+/* Footer block */
+.footer {}
+
+.container-footer {}
+
+.footer-link {}
+
+.logo-img {}
+
+.management-list {}
+
+.management-item {}
+
+.menegment-title {}
+
+.menegment-text {}
+
+.socials-list {}
+
+.socials-item {}
+
+.socials-link {}
+
+.socials-icon {}
+
+.copy {}
 
 /* Modal window */
 .backdrop {
