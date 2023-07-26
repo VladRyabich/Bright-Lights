@@ -25,6 +25,11 @@ ul, ol {
     margin: 0 auto;
     padding-left: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .section {
     margin-bottom: 180px;
 }
@@ -59,7 +64,13 @@ ul, ol {
     margin-bottom: -100px;
 }
 
-.container {}
+.container {
+    width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 
 .container-nav {}
 
@@ -71,16 +82,20 @@ ul, ol {
     display: flex;
 }
 
-.logo-img {}
+.logo-img {
+    border-radius: 0;
+}
 
-.list {
+.news-list {
     display: flex;
     gap: 56px;
 }
 
 .header-list {
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 56px;
 }
 
 .header-item {}
@@ -98,10 +113,11 @@ ul, ol {
 /* Hero block */
 
 .hero {
-    width: 1920px;
     height: 1000px;
         
     background-image: url(../images/hero/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container-hero {
@@ -119,7 +135,6 @@ ul, ol {
 
     margin-bottom: 10px;
     padding-top: 412px;
-    padding-left: 405px;
 }
 
 .hero-text {
@@ -132,14 +147,13 @@ ul, ol {
     width: 100%;
 
     margin-bottom: 50px;
-    padding-left: 405px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px var(--main-color-text);
 }
 
 .hero-audio {}
 
 /* News block */
-.section {}
-
 .news {}
 
 
@@ -149,8 +163,7 @@ ul, ol {
 
 .news-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 30px;
 }
 
 .news-item {}
@@ -159,19 +172,27 @@ ul, ol {
 
 .news-wrapper {
     position: relative;
+    width: 350px;
 }
 
 .news-img {}
 
 .news-text {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    bottom: 0;
     position: absolute;
-    width: 350px;
-    height: 90px;
+    
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: left;
 
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    padding: 20px 20px;
+
+    border-radius: 0 0 35px 0;
     background-color: var(--bg-op-cl);
     opacity: 0.699999988079071;
 }
