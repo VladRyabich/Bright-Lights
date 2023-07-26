@@ -202,6 +202,8 @@ img {
 .info {}
 
 .container-info {
+    display: flex;
+    justify-content: left;
 }
 
 .con-title {
@@ -209,11 +211,16 @@ img {
 }
 
 .info-title {
-    
+    font-family: Poppins;
+    font-size: 48px;
+
+    margin-bottom: 60px;
 }
 
 .info-text {
-    width: 540px;
+    max-width: 540px;
+    margin: 0;
+    padding: 0;
 }
 
 .info-text-lable{}
@@ -229,11 +236,24 @@ img {
 }
 
 .info-img-con {
-    display: flex;
-    justify-content: end;
+    width: 445px;
+
+    
+}
+/* .info-img-t,
+.info-img {
+    position: relative;
+}
+.info-img-t {
+    top: 110px;
+    left: 95px;
+    opacity: 0.30000001192092896;
+} */
+.info-img {
+    /* bottom: 300px; */
+    background: url(../images/info/info-img-alpha.jpg), lightgray 50%, cover, no-repeat;
 }
 
-.info-img {}
 
 /* Sidebar block */
 
